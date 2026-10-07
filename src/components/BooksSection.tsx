@@ -2,11 +2,8 @@ import { BookOpen, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 
-// TODO(Alessandro): paste the real Amazon links for the Kindle and paperback
-// editions here. Left empty on purpose — a guessed Amazon URL could point to
-// the wrong book entirely, so the buttons stay hidden until these are real.
-const AMAZON_KINDLE_URL = "";
-const AMAZON_PAPERBACK_URL = "";
+const AMAZON_KINDLE_URL = "https://www.amazon.com/dp/B08NVGYVBS";
+const AMAZON_PAPERBACK_URL = "https://www.amazon.com/dp/B0HKL2LZX5";
 
 const BooksSection = () => (
   <section id="books" className="py-20 bg-background">
