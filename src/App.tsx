@@ -90,7 +90,6 @@ const AlessandroStudioSite = () => {
               </h2>
 
               <p className="text-xl text-muted-foreground max-w-xl mx-auto leading-relaxed">{t.heroSubtitle}</p>
-              <p className="text-base text-muted-foreground max-w-2xl mx-auto leading-relaxed">{t.ecosystemNote}</p>
 
               <div className="flex flex-wrap gap-4 justify-center pt-2">
                 <a href="#catalog">

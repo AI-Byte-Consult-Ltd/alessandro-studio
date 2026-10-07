@@ -33,13 +33,6 @@ const Footer = () => {
                 <span>info@aibyteconsult.com</span>
               </a>
             </div>
-            <p className="text-xs text-muted-foreground leading-relaxed pt-2">
-              Part of the{" "}
-              <a href="https://aibyteconsult.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-primary">
-                NICS AI ecosystem
-              </a>{" "}
-              by AI Byte Consult Ltd.
-            </p>
           </div>
         </div>
 
