@@ -92,21 +92,6 @@ export const CATALOG: CatalogItem[] = [
     tint: ["#e8833a", "#1c1c1e"],
   },
   {
-    id: "gingerbread-kit",
-    price: 29,
-    shipping: 4,
-    noColor: true,
-    hasText: false,
-    image: "/forge/gingerbread-kit-ams.webp",
-    model: "/forge/models/gingerbread-kit-ams.glb",
-    revolutUrl: "",
-    variants: [
-      { key: "ams", id: "gingerbread-kit-ams", image: "/forge/gingerbread-kit-ams.webp", model: "/forge/models/gingerbread-kit-ams.glb", revolutUrl: "" }, // TODO(Alessandro): Revolut link, EUR 33 (29 + 4 shipping)
-      { key: "paint", id: "gingerbread-kit-paint", image: "/forge/gingerbread-kit-paint.webp", model: "/forge/models/gingerbread-kit-paint.glb", revolutUrl: "" }, // TODO(Alessandro): Revolut link, EUR 33 (29 + 4 shipping)
-    ],
-    tint: ["#a06a3c", "#208c40"],
-  },
-  {
     id: "curious-cottage",
     price: 259,
     shipping: 40,
@@ -125,6 +110,21 @@ export const CATALOG: CatalogItem[] = [
     image: "/forge/curious-cottage-kit.png",
     revolutUrl: "",
     tint: ["#c9c6bd", "#8a6a4a"],
+  },
+  {
+    id: "gingerbread-kit",
+    price: 29,
+    shipping: 4,
+    noColor: true,
+    hasText: false,
+    image: "/forge/gingerbread-kit-ams.webp",
+    model: "/forge/models/gingerbread-kit-ams.glb",
+    revolutUrl: "",
+    variants: [
+      { key: "ams", id: "gingerbread-kit-ams", image: "/forge/gingerbread-kit-ams.webp", model: "/forge/models/gingerbread-kit-ams.glb", revolutUrl: "" }, // TODO(Alessandro): Revolut link, EUR 33 (29 + 4 shipping)
+      { key: "paint", id: "gingerbread-kit-paint", image: "/forge/gingerbread-kit-paint.webp", model: "/forge/models/gingerbread-kit-paint.glb", revolutUrl: "" }, // TODO(Alessandro): Revolut link, EUR 33 (29 + 4 shipping)
+    ],
+    tint: ["#a06a3c", "#208c40"],
   },
 ];
 
