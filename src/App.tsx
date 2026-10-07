@@ -37,8 +37,8 @@ const AlessandroStudioSite = () => {
     canonical: "https://alessandro-studio.eu/",
     jsonLd: {
       "@context": "https://schema.org",
-      "@type": "Person",
-      name: "Alexander Lunin",
+      "@type": "Organization",
+      name: "Alessandro Studio",
       url: "https://alessandro-studio.eu/",
     },
   };
