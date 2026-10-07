@@ -8,17 +8,16 @@ const MusicSection = () => (
           <Music2 className="w-4 h-4 text-primary" />
           <span className="text-sm font-medium text-primary">Music</span>
         </div>
-        <h2 className="text-3xl md:text-4xl font-semibold text-foreground">NICS Multimedia</h2>
+        <h2 className="text-3xl md:text-4xl font-semibold text-foreground">Music</h2>
         <p className="text-lg text-muted-foreground leading-relaxed">
-          Lyrics, musical idea and visual direction entirely by Alexander Lunin; technical
-          production by NICS Multimedia. Released on Spotify and other streaming platforms,
-          starting with the track "Just Live".
+          Lyrics, music and design entirely by Aleksandr Tochilov. Released on Spotify and
+          other streaming platforms, starting with the track "Just Live".
         </p>
       </div>
 
       <div className="max-w-2xl mx-auto rounded-2xl overflow-hidden border border-border/50 shadow-card">
         <iframe
-          title="NICS Multimedia — Spotify player"
+          title="Aleksandr Tochilov — Spotify player"
           style={{ borderRadius: 12 }}
           src="https://open.spotify.com/embed/album/1Sj5W4WdKgCUOw0ziLSrDX?utm_source=generator&si=7b1b89c7df784bf8"
           width="100%"
