@@ -41,6 +41,7 @@ const Footer = () => {
           <div className="flex gap-4">
             <a href="https://aibyteconsult.com/terms" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Terms</a>
             <a href="https://aibyteconsult.com/privacy" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Privacy</a>
+            <a href="https://aibyteconsult.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Site by AI Byte Consult</a>
           </div>
         </div>
       </div>
