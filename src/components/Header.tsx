@@ -40,9 +40,7 @@ const Header = () => {
       <div className="container mx-auto px-6 md:px-12 lg:px-20">
         <div className="flex items-center justify-between h-16">
           <a href="/" className="flex items-center gap-2.5 group">
-            <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-foreground text-background font-semibold text-sm">
-              AS
-            </span>
+            <img src="/favicon.svg" alt="Alessandro Studio" width={36} height={36} className="h-9 w-9 rounded-lg" />
             <span className="text-lg font-semibold tracking-tight text-foreground">
               Alessandro <span className="text-gradient-gold">Studio</span>
             </span>

@@ -8,7 +8,7 @@ interface SEOProps {
   jsonLd?: Record<string, unknown> | Record<string, unknown>[];
 }
 
-const DEFAULT_IMAGE = "https://alessandro-studio.eu/og-image.jpg";
+const DEFAULT_IMAGE = "https://alessandro-studio.eu/forge/curious-cottage.png";
 
 const SEO = ({ title, description, canonical, ogImage, jsonLd }: SEOProps) => {
   const resolvedImage = ogImage || DEFAULT_IMAGE;

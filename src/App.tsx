@@ -33,7 +33,7 @@ const AlessandroStudioSite = () => {
   const seoProps = {
     title: "Alessandro Studio — Books, Music & 3D-Printed Collectibles",
     description:
-      "Alessandro Studio: the novel \"The Appearance\", music by Aleksandr Tochilov, and ready-made 3D-printed collectibles plus a custom AI studio that turns your photo into a model we print and ship to you.",
+      "Alessandro Studio: the novel The Appearance, music by Aleksandr Tochilov, and 3D-printed collectibles, plus a custom AI studio that prints your own design.",
     canonical: "https://alessandro-studio.eu/",
     jsonLd: {
       "@context": "https://schema.org",
