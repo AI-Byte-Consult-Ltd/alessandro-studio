@@ -33,7 +33,7 @@ const AlessandroStudioSite = () => {
   const seoProps = {
     title: "Alessandro Studio — Books, Music & 3D-Printed Collectibles",
     description:
-      "Alessandro Studio: the novel \"Появление\" (The Appearance), music released as NICS Multimedia, and ready-made 3D-printed collectibles plus a custom AI studio that turns your photo into a model we print and ship to you.",
+      "Alessandro Studio: the novel \"The Appearance\", music released as NICS Multimedia, and ready-made 3D-printed collectibles plus a custom AI studio that turns your photo into a model we print and ship to you.",
     canonical: "https://alessandro-studio.eu/",
     jsonLd: {
       "@context": "https://schema.org",
@@ -61,21 +61,20 @@ const AlessandroStudioSite = () => {
                 A novel. A record. A workshop full of small handmade things.
               </p>
               <div className="flex flex-wrap gap-3 justify-center pt-2">
-                <a href="#books">
-                  <Button variant="outline" className="rounded-full px-6 border-2">Books</Button>
-                </a>
                 <a href="#music">
                   <Button variant="outline" className="rounded-full px-6 border-2">Music</Button>
                 </a>
                 <a href="#printing">
                   <Button variant="outline" className="rounded-full px-6 border-2">3D Printing</Button>
                 </a>
+                <a href="#books">
+                  <Button variant="outline" className="rounded-full px-6 border-2">Books</Button>
+                </a>
               </div>
             </div>
           </div>
         </section>
 
-        <BooksSection />
         <MusicSection />
 
         <section id="printing" className="pt-4 pb-4 relative overflow-hidden">
@@ -127,6 +126,8 @@ const AlessandroStudioSite = () => {
         <ForgeCatalog t={t} onOrder={setOrder} />
         {STUDIO_ENABLED ? <ForgeStudio t={t} onOrder={setOrder} /> : <ForgeStudioSoon t={t} />}
         <ForgeSocial t={t} />
+
+        <BooksSection />
 
         <ForgeCheckout order={order} onClose={() => setOrder(null)} t={t} lang={language} />
         <Footer />

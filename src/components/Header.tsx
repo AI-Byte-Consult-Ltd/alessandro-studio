@@ -24,9 +24,9 @@ const LANGUAGE_META: Record<Language, { flag: string; name: string }> = {
 };
 
 const NAV_LINKS = [
-  { href: "#books", label: "Books" },
   { href: "#music", label: "Music" },
   { href: "#printing", label: "3D Printing" },
+  { href: "#books", label: "Books" },
   { href: "#contact", label: "Contact" },
 ];
 

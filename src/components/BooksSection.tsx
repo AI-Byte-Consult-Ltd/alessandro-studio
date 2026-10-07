@@ -12,8 +12,7 @@ const BooksSection = () => (
         <div className="flex justify-center">
           <div className="aspect-[2/3] w-full max-w-xs rounded-2xl border border-border/60 bg-gradient-to-br from-card to-muted flex flex-col items-center justify-center text-center p-8 shadow-card">
             <BookOpen className="w-10 h-10 text-primary mb-4" />
-            <p className="text-2xl font-semibold text-foreground leading-tight">Появление</p>
-            <p className="text-sm text-muted-foreground mt-1">The Appearance</p>
+            <p className="text-2xl font-semibold text-foreground leading-tight">The Appearance</p>
             <p className="text-xs text-muted-foreground mt-6 uppercase tracking-wide">Alexander Lunin</p>
           </div>
         </div>
@@ -23,9 +22,7 @@ const BooksSection = () => (
             <BookOpen className="w-4 h-4 text-primary" />
             <span className="text-sm font-medium text-primary">Novel</span>
           </div>
-          <h2 className="text-3xl md:text-4xl font-semibold text-foreground">
-            Появление <span className="text-muted-foreground font-normal">/ The Appearance</span>
-          </h2>
+          <h2 className="text-3xl md:text-4xl font-semibold text-foreground">The Appearance</h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
             A mystical adventure novel by Alexander Lunin. An amnesiac narrator moves between
             three eras that turn out to be the same place at different branches in time —
