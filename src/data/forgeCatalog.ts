@@ -106,19 +106,27 @@ export const CATALOG: CatalogItem[] = [
     ],
     tint: ["#a06a3c", "#208c40"],
   },
-  { id: "name-keychain", price: 36, hasText: true, image: "", revolutUrl: "", tint: ["#c9a34e", "#d6322e"] },
-  { id: "geo-vase", price: 44, hasText: false, image: "", revolutUrl: "", tint: ["#2f9e5b", "#2b6cdf"] },
-  { id: "phone-stand", price: 36, hasText: false, image: "", revolutUrl: "", tint: ["#1c1c1e", "#7d4fd1"] },
-  { id: "lowpoly-fox", price: 39, hasText: false, image: "", revolutUrl: "", tint: ["#e8833a", "#c9a34e"] },
-  { id: "planter", price: 38, hasText: false, image: "", revolutUrl: "", tint: ["#2f9e5b", "#f2c230"] },
-  { id: "cable-organizer", price: 36, hasText: false, image: "", revolutUrl: "", tint: ["#2b6cdf", "#1c1c1e"] },
-  { id: "name-plate", price: 42, hasText: true, image: "", revolutUrl: "", tint: ["#c9a34e", "#1c1c1e"] },
-  { id: "chess-knight", price: 41, hasText: false, image: "", revolutUrl: "", tint: ["#1c1c1e", "#c9a34e"] },
-  // TODO(Alessandro): confirm final price/shipping and add real photos — these
-  // two placeholders use the same tint-gradient card as name-keychain etc.
-  // until /forge/curious-cottage*.webp exist.
-  { id: "curious-cottage", price: 259, shipping: 40, noColor: true, hasText: false, image: "", revolutUrl: "", tint: ["#8a6a4a", "#2a2a2e"] },
-  { id: "curious-cottage-kit", price: 89, shipping: 15, noColor: true, hasText: false, image: "", revolutUrl: "", tint: ["#c9c6bd", "#8a6a4a"] },
+  // TODO(Alessandro): confirm final price/shipping.
+  {
+    id: "curious-cottage",
+    price: 259,
+    shipping: 40,
+    noColor: true,
+    hasText: false,
+    image: "/forge/curious-cottage.png",
+    revolutUrl: "",
+    tint: ["#8a6a4a", "#2a2a2e"],
+  },
+  {
+    id: "curious-cottage-kit",
+    price: 89,
+    shipping: 15,
+    noColor: true,
+    hasText: false,
+    image: "/forge/curious-cottage-kit.png",
+    revolutUrl: "",
+    tint: ["#c9c6bd", "#8a6a4a"],
+  },
 ];
 
 export const SOCIAL_LINKS = {
