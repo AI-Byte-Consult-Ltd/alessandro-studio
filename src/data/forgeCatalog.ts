@@ -82,18 +82,18 @@ export interface CatalogItem {
 export const CATALOG: CatalogItem[] = [
   {
     id: "halloween-house",
-    price: 229,
+    price: 259,
     shipping: 40,
     noColor: true,
     hasText: false,
     image: "/forge/halloween-house.webp",
     model: "/forge/models/halloween-house-preview.glb",
-    revolutUrl: "", // TODO(Alessandro): Revolut link, EUR 269 (229 + 40 shipping)
+    revolutUrl: "", // TODO(Alessandro): Revolut link, EUR 299 (259 + 40 shipping)
     tint: ["#e8833a", "#1c1c1e"],
   },
   {
     id: "gingerbread-kit",
-    price: 72.5,
+    price: 29,
     shipping: 4,
     noColor: true,
     hasText: false,
@@ -101,12 +101,11 @@ export const CATALOG: CatalogItem[] = [
     model: "/forge/models/gingerbread-kit-ams.glb",
     revolutUrl: "",
     variants: [
-      { key: "ams", id: "gingerbread-kit-ams", image: "/forge/gingerbread-kit-ams.webp", model: "/forge/models/gingerbread-kit-ams.glb", revolutUrl: "" }, // TODO(Alessandro): Revolut link, EUR 76.50
-      { key: "paint", id: "gingerbread-kit-paint", image: "/forge/gingerbread-kit-paint.webp", model: "/forge/models/gingerbread-kit-paint.glb", revolutUrl: "" }, // TODO(Alessandro): Revolut link, EUR 76.50
+      { key: "ams", id: "gingerbread-kit-ams", image: "/forge/gingerbread-kit-ams.webp", model: "/forge/models/gingerbread-kit-ams.glb", revolutUrl: "" }, // TODO(Alessandro): Revolut link, EUR 33 (29 + 4 shipping)
+      { key: "paint", id: "gingerbread-kit-paint", image: "/forge/gingerbread-kit-paint.webp", model: "/forge/models/gingerbread-kit-paint.glb", revolutUrl: "" }, // TODO(Alessandro): Revolut link, EUR 33 (29 + 4 shipping)
     ],
     tint: ["#a06a3c", "#208c40"],
   },
-  // TODO(Alessandro): confirm final price/shipping.
   {
     id: "curious-cottage",
     price: 259,
@@ -119,8 +118,8 @@ export const CATALOG: CatalogItem[] = [
   },
   {
     id: "curious-cottage-kit",
-    price: 89,
-    shipping: 15,
+    price: 178,
+    shipping: 40,
     noColor: true,
     hasText: false,
     image: "/forge/curious-cottage-kit.png",
